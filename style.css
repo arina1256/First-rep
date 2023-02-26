@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+body{background-color: rgb(255, 255, 245);}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{background-color: black;
+    margin: -10px;;
+    padding: 0;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none; 
+}
+a{text-decoration: none;
+color: aliceblue;}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    color: rgb(255, 255, 255);
+}
+.imglogo{
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.new{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 155px;
+color: #000000;
+}
+
+.comfort{
+    background-image: url(img/comforthw.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 500px;
+    font-family: 'Italiana', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 151px;
+    padding-top:150px ;
+    color: #FFFFFF;}
+
+.purchase{
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    width: 386px;
+    height: 461px;
+    margin: 55px;
+}
+.offers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.common{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.registration{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.sheeps{
+    border-radius: 400px;
+    transform: rotate(0.52deg);
+    width: 450px;
+    height: 400px;
+    margin-right: 250px;
+}
+.registr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 200px;
+}
+input{
+    border-radius: 40px;
+}
+button{
+    margin-top: 30px;
+}
+footer{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.soc{
+    padding: 5px;
+}
+button{
+    background-color:lightcyan;
+}
